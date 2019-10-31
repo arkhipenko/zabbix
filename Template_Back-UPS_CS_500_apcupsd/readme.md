@@ -4,8 +4,9 @@ Zabbix template for APC UPS based on Back-UPS CS 500
 Based on reading and interpreting apcaccess output.                      
 
 
-Because apcaccess takes anywhere from 1 to 15 seconds to update
+Because apcaccess takes anywhere from 1 to 15 seconds to run,
 a file based cacheing was implemented:
+
 One instance of apcaccess is executed and the outputs are used
 for multiple monitoring variables, thus avoiding timeouts.
 
