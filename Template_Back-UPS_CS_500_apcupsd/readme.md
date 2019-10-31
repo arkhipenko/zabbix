@@ -17,8 +17,8 @@ Tested on:
 INSTALL:
 =======
 1. Copy 'apc-status.pl' to '/usr/local/bin/' folder
-2. Change permissions: 'chmod 755 /usr/local/bin/apc-status.pl'
-   Add '/usr/local/bin/apc-status.pl' to your '/etc/rc.local' script 
+2. Change permissions: 'chmod 755 /usr/local/bin/apc-status.pl'<br/>
+   Add '/usr/local/bin/apc-status.pl &' to your '/etc/rc.local' script 
 3. Copy 'userparameter_apcupsd.conf' to '/etc/zabbix/zabbix.d/' folder
 4. Import 'Zabbix - Template APC upsapcd.xml' into your Zabbix instance
 5. Reboot your server -or- execute 'nohup /usr/local/bin/apc-status.pl &>/dev/null &' command
