@@ -16,6 +16,7 @@ Tested on:
 
 INSTALL:
 =======
+Using 'root' account or under 'sudo':<br/>
 1. Copy 'apc-status.pl' to '/usr/local/bin/' folder
 2. Change permissions: 'chmod 755 /usr/local/bin/apc-status.pl'<br/>
    Add '/usr/local/bin/apc-status.pl &' to your '/etc/rc.local' script 
