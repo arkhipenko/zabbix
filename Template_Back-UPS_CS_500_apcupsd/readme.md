@@ -1,5 +1,5 @@
-* Zabbix template for APC UPS based on Back-UPS CS 500
-* ====================================================
+Zabbix template for APC UPS based on Back-UPS CS 500
+====================================================
 
 Based on reading and interpreting apcaccess output.                      
 
@@ -13,8 +13,8 @@ Tested on:
  - Zabbix 3.0
  - Ubuntu 18.04
 
-** INSTALL:
-** =======
+INSTALL:
+=======
 1. Copy 'apc-status.pl' to '/usr/local/bin/' folder
 2. Change permissions: 'chmod 755 /usr/local/bin/apc-status.pl'
    Add '/usr/local/bin/apc-status.pl' to your '/etc/rc.local' script 
